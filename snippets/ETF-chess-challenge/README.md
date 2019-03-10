@@ -47,17 +47,17 @@ You will need to edit at least the following:
 * MOVE_KING
 * ETF_MOVE\_BISHOP
 
-Most of the infrastucture is provided, so that you can focus on the undo/redo design. An Oracle is not provided as the rules are precisely specified. 
+Most of the infrastructure is provided, so that you can focus on the undo/redo design. An Oracle is not provided as the rules are precisely specified. 
 
 ## What you must do
 
 Start by getting the acceptance test below working. Then write you own syntactically correct acceptance tests and ensure that the project (a) compiles and (b) is correct in all respects and (c) never crashes with exceptions, or non-termination. 
 
-**Hint**: You may wish to use the IDE to automatically generate the BON class diagram (or UML if you prefer). This diagram will assist you in underatnding the architecture of the system,
+**Hint**: You may wish to use the IDE to automatically generate the BON class diagram (or UML if you prefer). This diagram will assist you in understanding the architecture of the system,
 
 **Remark**: Although this design is feasible and can be made correct, it might still be improved taking into account design principles such as abstraction, modularity and information hiding. 
 
-## The abtract grammar at the user interface
+## The abstract grammar at the user interface
 
 ```
 system chess
