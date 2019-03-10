@@ -18,9 +18,9 @@ The pieces move around on the board but do not "capture" each other but unlike n
 
 ![Moves of Bishop](docs/bishop.png)
 
-Please read and understand the design/code and ensure that you get it working. 
-
 Ensure that you understand how these pieces move. The abstract algorithm for any piece is in class MOVE. 
+
+Please read and understand the design/code and ensure that you get it working correctly to specification. 
 
 ## Undo/redo design pattern
 
@@ -40,7 +40,7 @@ The redo/undo design pattern is discussed in OOSC2 chapter 21, with the followin
 
 In the starter project, the king moves on the board but not the bishop to give you some idea of the basic design. The deferred class MOVE* has a template pattern for moving different pieces on the board and also specifies deferred routines for undo and redo. Different pieces effect `directions` differently, to make use of polymorphism and dynamic binding. 
 
-You will need to edit at least the foillowing:
+You will need to edit at least the following:
 
 * BOARD
 * MOVE_BISHOP
@@ -54,6 +54,8 @@ Most of the infrastucture is provided, so that you can focus on the undo/redo de
 Start by getting the acceptance test below working. Then write you own syntactically correct acceptance tests and ensure that the project (a) compiles and (b) is correct in all respects and (c) never crashes with exceptions, or non-termination. 
 
 **Hint**: You may wish to use the IDE to automaticall generate the BON class diagram (or UML if you prefer). This diagram will assist you in underatnding the architecture of the system,
+
+**Remark**: Although this design is feasible and can be made correct, it might still be improved taking into account design principles such as abstraction, modularity and information hiding. 
 
 ## The abtract grammar at the user interface
 
